@@ -42,5 +42,11 @@ public class UserController {
 		return users;
 	}
 	
+	@RequestMapping(value = "/exception", method = RequestMethod.GET )
+	public String getExceptionTest() throws Exception
+	{
+		throw new Exception("This is dipn's custom exception");
+	}
+	
 	
 }
