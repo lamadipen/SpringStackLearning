@@ -1,4 +1,5 @@
 server:
     port: 8181
+  
     
 #https://www.mkyong.com/spring-boot/spring-boot-profile-based-properties-and-yaml-example/    
